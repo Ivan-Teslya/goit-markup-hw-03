@@ -8,48 +8,48 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!--шапка-->
-    <header class="page-header">
-      <nav class="site-header">
+    <header class="page-header section">
+      <nav class="page-header-conteiner">
         <a href="/" class="logo logo-header">
           <span class="logo-header-web">Web</span>
           <span class="logo-header-studio">Studio</span>
         </a>
         <ul class="site-nav list">
-          <li class="site-nav-item">
-            <a href="./index.html" class="link current">Студия</a>
-          </li>
-          <li class="site-nav-item">
-            <a href="./portfolio.html" class="link">Портфолио</a>
-          </li>
-          <li class="site-nav-item"><a href="" class="link">Контакты</a></li>
-        </ul>
-
-        <ul class="contact-nav list">
-          <li class="contact-nav-mail">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="contact-nav-tel">
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
+          <li><a href="./index.html" class="link current">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
+      <ul class="contact-nav list">
+        <li class="contact-nav-mail">
+          <a class="mail" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="contact-nav-tel">
+          <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </header>
 
-    <main class="page-portfolio">
+    <main class="progect section">
       <!-- кнопки навигации  -->
-      <ul class="list list-button-second">
+      <ul class="list list-button">
         <li><button type="button" class="button-second">Все</button></li>
         <li><button type="button" class="button-second">Веб-сайты</button></li>
         <li><button type="button" class="button-second">Приложения</button></li>
         <li><button type="button" class="button-second">Дизайн</button></li>
         <li><button type="button" class="button-second">Маркетинг</button></li>
       </ul>
-      <h1 class="project">Проеты</h1>
       <!--  список  -->
       <ul class="list list-portfolio">
         <li class="list-progect">
@@ -57,11 +57,11 @@
             <img src="./images/portfolio/img.jpg" alt="" />
             <h2>Технокряк</h2>
             <p>Веб-сайт</p>
-            <p>
+            <a href="">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
-            </p>
+            </a>
           </a>
         </li>
         <li class="list-progect">
@@ -69,11 +69,11 @@
             <img src="./images/portfolio/sport.jpg" alt="" width="370" />
             <h2>Постер New Orlean vs Golden Star</h2>
             <p>Дизайн</p>
-            <p>
+            <a href="">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
-            </p>
+            </a>
           </a>
         </li>
         <li class="list-progect">
@@ -81,11 +81,11 @@
             <img src="./images/portfolio/restaurant.jpg" alt="" width="370" />
             <h2>Ресторан Seafood</h2>
             <p>Приложение</p>
-            <p>
+            <a href="">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
-            </p>
+            </a>
           </a>
         </li>
         <li class="list-progect">
@@ -93,11 +93,11 @@
             <img src="./images/portfolio/prime.jpg" alt="" width="370" />
             <h2>Проект Prime</h2>
             <p>Маркетинг</p>
-            <p>
+            <a href="">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
-            </p>
+            </a>
           </a>
         </li>
         <a class="cards" href="">
@@ -105,23 +105,23 @@
             <img src="./images/portfolio/boxes.jpg" alt="" width="370" />
             <h2>Проект Boxes</h2>
             <p>Приложение</p>
-            <p>
+            <a href="">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
-            </p>
-          </a>
+            </a>
+        </a>
         </li>
         <li class="list-progect">
           <a class="cards" href="">
             <img src="./images/portfolio/borders.jpg" alt="" width="370" />
             <h2>Inspiration has no Borders</h2>
             <p>Веб-сайт</p>
-            <p>
+            <a href="">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
-            </p>
+            </a>
           </a>
         </li>
         <li class="list-progect">
@@ -129,11 +129,11 @@
             <img src="./images/portfolio/books.jpg" alt="" width="370" />
             <h2>Издание Limited Edition</h2>
             <p>Дизайн</p>
-            <p>
+            <a href="">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
-            </p>
+            </a>
           </a>
         </li>
         <li class="list-progect">
@@ -141,11 +141,11 @@
             <img src="./images/portfolio/lab.jpg" alt="" width="370" />
             <h2>Проект LAB</h2>
             <p>Маркетинг</p>
-            <p>
+            <a href="">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
-            </p>
+            </a>
           </a>
         </li>
         <li class="list-progect">
@@ -153,73 +153,67 @@
             <img src="./images/portfolio/busines.jpg" alt="" width="370" />
             <h2>Growing Business</h2>
             <p>Приложение</p>
-            <p>
+            <a href="">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
-            </p>
+            </a>
           </a>
       
         </li>
       </ul>
-    </main>
-    <!--футер-->
-    <footer class="list-footer">
-      <div class="page-footer-main">
-        <div class="page-footer">
-          <a href="/" class="logo logo-footer">
-            <span class="logo-footer-web">Web</span>
-            <span class="logo-footer-studio">Studio</span>
-          </a>
-          <address class="footer-addres">
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <a href="mailto:info@example.com">info@example.com</a>
-            <a class="page-footer-tel" href="tel:+380991111111"
-              >+38 099 111 11 11</a
-            >
-          </address>
+      <footer class="section">
+        <div class="footer-conteiner">
+          <div class="page-footer">
+            <div class="page-footer-logo">
+              <a href="/" class="logo logo-footer">
+                <span class="logo-footer-web">Web</span>
+                <span class="logo-footer-studio">Studio</span>
+              </a>
+            </div>
+            <div>
+              <address class="footer-addres">
+                <p>г. Киев, пр-т Леси Украинки, 26</p>
+                <a href="mailto:info@example.com">info@example.com</a>
+                <a class="page-footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
+              </address>
+            </div>
+          </div>
+          <div class="footer-goin">
+            <b class="page-footer-goin">присоединяйтесь</b>
+            <ul class="list list-goin">
+              <li>
+                <a href="">
+                  <img src="./images/footer/instagram.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./images/footer/twitter.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./images/footer/facabook.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./images/footer/in.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="sub">
+            <b class="page-footer-sub">подпишитесь на рассылку</b>
+            <form class="sub-form">
+              <input type="text" placeholder="E-mail" name="Email" id="Email-input" />
+              <input type="submit" value="Подписаться" />
+            </form>
+          </div>
         </div>
-        <div class="goin">
-          <b class="page-footer-goin">присоединяйтесь</b>
-          <ul class="list goin-list">
-            <li>
-              <a href="">
-                <img src="./images/footer/instagram.png" alt="" />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="./images/footer/twitter.png" alt="" />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="./images/footer/facabook.png" alt="" />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="./images/footer/in.png" alt="" />
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="page-sub">
-          <b class="page-footer-sub">подпишитесь на рассылку</b>
-          <form>
-            <input
-              type="text"
-              placeholder="E-mail"
-              name="Email"
-              id="Email-input"
-            />
-            <input type="submit" value="Подписаться" />
-          </form>
-        </div>
-      </div>
-      <div class="footer-end">
+      
         <p class="page-footer-end">2020 | Developed by GoIT Students</p>
-      </div>
-    </footer>
+      </footer>
   </body>
 </html>
