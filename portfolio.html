@@ -17,7 +17,7 @@
 
   <body>
     <!--шапка-->
-    <header class="page-header section">
+    <header class="container page-header section">
       <nav class="page-header-conteiner">
         <a href="/" class="logo logo-header">
           <span class="logo-header-web">Web</span>
@@ -41,7 +41,7 @@
       </ul>
     </header>
 
-    <main class="progect section">
+    <main class="progect section container">
       <!-- кнопки навигации  -->
       <ul class="list list-button">
         <li><button type="button" class="button-second">Все</button></li>
@@ -88,6 +88,7 @@
             </a>
           </a>
         </li>
+
         <li class="list-progect">
           <a class="cards" href="">
             <img src="./images/portfolio/prime.jpg" alt="" width="370" />
@@ -100,8 +101,8 @@
             </a>
           </a>
         </li>
-        <a class="cards" href="">
-          <li class="list-progect">
+        <li class="list-progect">
+          <a class="cards" href="">
             <img src="./images/portfolio/boxes.jpg" alt="" width="370" />
             <h2>Проект Boxes</h2>
             <p>Приложение</p>
@@ -110,7 +111,7 @@
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
             </a>
-        </a>
+          </a>
         </li>
         <li class="list-progect">
           <a class="cards" href="">
@@ -159,10 +160,12 @@
               защищённые сервера конкурентов.
             </a>
           </a>
-      
         </li>
       </ul>
-      <footer class="section">
+    </main>
+    <!--Футер-->
+    <footer>
+      <div class="section section-end container">
         <div class="footer-conteiner">
           <div class="page-footer">
             <div class="page-footer-logo">
@@ -171,8 +174,8 @@
                 <span class="logo-footer-studio">Studio</span>
               </a>
             </div>
-            <div>
-              <address class="footer-addres">
+            <div class="footer-addres">
+              <address>
                 <p>г. Киев, пр-т Леси Украинки, 26</p>
                 <a href="mailto:info@example.com">info@example.com</a>
                 <a class="page-footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
@@ -212,8 +215,11 @@
             </form>
           </div>
         </div>
-      
-        <p class="page-footer-end">2020 | Developed by GoIT Students</p>
-      </footer>
+        
+        <p class="page-footer-end">
+          2020 | Developed by GoIT Students
+        </p>
+        </footer>
+      </div>
   </body>
 </html>
